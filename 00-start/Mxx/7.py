@@ -12,4 +12,4 @@ R = 50
 D = 20
 Dollar = R * 7.30
 Rmb = D / 7.30
-print ("%.2f" % Dollar, "%.2f" % Rmb)
+print (f"{Dollar:.2f} {Rmb:.2f}")
